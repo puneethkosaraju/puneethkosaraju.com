@@ -14,6 +14,8 @@ googleAnalytics = ""
 # Enable / Disable comments on the articles via Disqus.
 disqusShortname = "bilberry-hugo-theme"
 
+Copyright = "Sample Copyright"
+
 [params]
   # Favicon for the browser's favorites and tabs
   favicon = "" # set a favicon icon
@@ -22,29 +24,31 @@ disqusShortname = "bilberry-hugo-theme"
   # Files are relative to the static/ directory or a URL.
   # Files are imported in the order they appear here, after
   # theme.css and theme.js, respectively.
-  css_modules = []
+  css_modules = ["css/foo.css"]
   js_modules = []
+
+  AuthorName = "Jon Doe"
 
   # Description and meta data for the search engines
   author = "kosarp"
   description = "My corner in the world wide web."
-  keywords = "blog,personal"
+  keywords = "blog, personal, programming, snippets, coding"
 
   # How many articles should be displayed at once?
   paginate = 7
 
   # Enable / Disable MathJax
-  enable_mathjax    = false
+  enable_mathjax    = true
 
   # Enable / Disable algolia search
-  algolia_search    = true
-  algolia_appId     = "Y2C4RWMPXW"
-  algolia_apiKey    = "50ea7f8c41c0ad233926e0be2b769ed1"
+  algolia_search    = false
+  algolia_appId     = ""
+  algolia_apiKey    = ""
   algolia_indexName = "default-content"
 
   # Header configuration
   # your subtitle if you want to use any
-  subtitle = "Hello World! This is the most epic subtitle ever."
+  subtitle = "A library of code snippets"
 
   # if you want to use gravatar for the header image
   gravatarEMail = ""
@@ -53,7 +57,7 @@ disqusShortname = "bilberry-hugo-theme"
   customImage = ""
 
   # always display the top navigation (with pages and search) on non-mobile screens
-  permanentTopNav = false
+  permanentTopNav = true
 
   # social media profile urls for the footer links
   facebook   = ""
