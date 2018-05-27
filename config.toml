@@ -9,26 +9,24 @@ googleAnalytics = "your_google_analytics_id"
 hasCJKLanguage = false
 
 [params]
-	author = "site_author"
+	author = "Puneeth kosaraju"
 	description = "puneethkosaraju.com Site Description"
-	bio = "full stack developer"
+	bio = "full stack developer &middot; sci-fi junkie &middot; blogger"
 
-	twitter = "your_twitter_id"
-	facebook = "your_facebook_id"
+	twitter = "indianethic"
+	facebook = "puneeth.kosaraju"
 
 	enableRSS = true
 	enableToc = true
 
 	enableDisqus = true
-	disqusShortname = "your_disqus_short_name"
-
+	disqusShortname = "puneethkosaraju"
 
 	enableSummary = true
 	# Set the value to true if use description in post front matter replace content summary
 	useDescriptionReplaceSummary = false
 
-
-	enableGoogleAnalytics = true
+	enableGoogleAnalytics = false
 	enableBaiduAnalytics = false
 	# Set the value to your baidu analysis code if you want to use baidu analytics
 	baiduAnalytics = ''
@@ -45,14 +43,14 @@ hasCJKLanguage = false
 	# translate or customize each string of the theme.
 
 	# Navigation links
-	home = "home"
-	about = "about"
-	archive = "archive"
-	subscribe = "subscribe"
+	home = ""
+	about = ""
+	archive = ""
+	subscribe = ""
 
-	olderPosts = "olderPosts"
-	newerPosts = "newerPosts"
-	copyright = "Sample Copyright Information Here"
+	olderPosts = ""
+	newerPosts = ""
+	copyright = ""
 
 	# show latest posts in single page
 	showLatestPosts = false
@@ -72,6 +70,8 @@ hasCJKLanguage = false
   # The social icons can be styled differently if you use mono as font - circle, rounded, or empty
   socialIconStyle = ""
 
+[params.Links]
+	Projects = "/projects"
 
 # Add additional social link entries underneath
 [social]
