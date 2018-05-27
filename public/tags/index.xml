@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Puneeth Kosaraju</title>
+    <link>https://puneethkosaraju.com/tags/</link>
+    <description>Recent content in Tags on Puneeth Kosaraju</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Thu, 17 May 2018 14:58:12 -0500</lastBuildDate>
+    
+	<atom:link href="https://puneethkosaraju.com/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Development</title>
+      <link>https://puneethkosaraju.com/tags/development/</link>
+      <pubDate>Thu, 17 May 2018 14:58:12 -0500</pubDate>
+      
+      <guid>https://puneethkosaraju.com/tags/development/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Go</title>
+      <link>https://puneethkosaraju.com/tags/go/</link>
+      <pubDate>Thu, 17 May 2018 14:58:12 -0500</pubDate>
+      
+      <guid>https://puneethkosaraju.com/tags/go/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>Golang</title>
+      <link>https://puneethkosaraju.com/tags/golang/</link>
+      <pubDate>Thu, 17 May 2018 14:58:12 -0500</pubDate>
+      
+      <guid>https://puneethkosaraju.com/tags/golang/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>

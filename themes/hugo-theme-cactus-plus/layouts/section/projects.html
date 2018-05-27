@@ -1,0 +1,19 @@
+{{ partial "head.html" . }}
+<body>
+{{ partial "nav.html" . }}
+{{ partial "profile.html" . }}
+
+<section id="wrapper" class="home">
+    {{ range .Pages }}
+      <h3 id="{{ .UniqueID }}">{{ .Title }}</h3>
+      <p> {{ .Description }}
+      <p> {{ .Content }}
+      <p> Link: <a href="{{ .Params.projectlink }}">{{ .Params.projectLink }}</a>
+      <hr>
+    {{ end }}
+
+    {{ partial "footer.html" . }}
+</section>
+
+{{ partial "js.html" . }}
+</body>
